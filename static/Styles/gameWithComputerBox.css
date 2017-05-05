@@ -1,0 +1,10 @@
+.game-with-computer-box__holst-for-paint_cursor-pointer
+{
+    cursor: pointer;
+    position: absolute;
+}
+
+.game-with-computer-box__game-result_color-blue
+{
+    color: blue;
+}

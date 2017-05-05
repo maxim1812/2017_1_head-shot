@@ -1,0 +1,17 @@
+body
+{
+    background-color: DeepSkyBlue;
+    font-size: 15px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.main-box_center-position
+{
+    margin: 0 auto;
+    width: 800px;
+    height: 570px;
+    background-color: white;
+    z-index: 0;
+    padding: 10px 30px;
+    border-radius: 20px 20px 20px 20px;
+}

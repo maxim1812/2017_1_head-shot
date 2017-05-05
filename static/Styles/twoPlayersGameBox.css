@@ -1,0 +1,10 @@
+.two-players-game-box__message-text_color-blue
+{
+    color: blue;
+}
+
+.two-players-game-box__holst-for-paint_cursor-pointer
+{
+    cursor: pointer;
+    position: absolute;
+}
