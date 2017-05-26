@@ -1,0 +1,155 @@
+body
+{
+    background-color: #FFFFFF;
+    font-size: 200%;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.main-box_center-position
+{
+    margin: 0 auto;
+    /*width: 800px;*/
+    /*height: 700px;*/
+    width: 80%;
+    height: 95%;
+    max-width: 750px;
+    background-color: white;
+    z-index: 0;
+    padding: 10px 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+
+
+
+.main-box_center__image
+{
+    width: 90%;
+}
+
+.welcome-box__check-in-box-button_DeepSkyBlue-color
+{
+    width: 90%;
+    height: 20%;
+    font-size: 200%;
+}
+
+.welcome-box__sign-in-button_DeepSkyBlue-color
+{
+    width: 90%;
+    height: 20%;
+    font-size: 200%;
+}
+
+.authorization-box__back-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.authorization-box__sign-in-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.authorization-box__login-field_black-shadow
+{
+    width: 94%;
+    height: 20%;
+    font-size: 130%;
+}
+
+.authorization-box__password-field_black-shadow
+{
+    width: 94%;
+    height: 20%;
+    font-size: 130%;
+}
+
+.check-in-box__back-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.check-in-box__registration-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.check-in-box__email-field_black-shadow
+{
+    width: 94%;
+    height: 20%;
+    font-size: 130%;
+}
+
+.check-in-box__login-field_black-shadow
+{
+    width: 94%;
+    height: 20%;
+    font-size: 130%;
+}
+
+.check-in-box__password-field_black-shadow
+{
+    width: 94%;
+    height: 20%;
+    font-size: 130%;
+}
+
+.my-profile-box__best-players-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.my-profile-box__exit-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.my-profile-box__my-results-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.my-profile-box__play-with-computer-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.my-profile-box__play-with-user-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.results-of-user-box__go-to-main-menu-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}
+
+.best-users-results-box__go-to-main-menu-button_DeepSkyBlue-color
+{
+    width: 94%;
+    height: 20%;
+    font-size: 150%;
+}

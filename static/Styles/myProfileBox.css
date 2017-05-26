@@ -1,0 +1,64 @@
+.my-profile-box__play-with-computer-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 230px;
+    outline: none;
+    cursor: pointer;
+}
+
+.my-profile-box__play-with-user-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 230px;
+    outline: none;
+    cursor: pointer;
+}
+
+.my-profile-box__my-results-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 230px;
+    outline: none;
+    cursor: pointer;
+}
+
+.my-profile-box__best-players-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 230px;
+    outline: none;
+    cursor: pointer;
+}
+
+.my-profile-box__exit-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 230px;
+    outline: none;
+    cursor: pointer;
+}
+
+.my-profile-box__user-login_big-text
+{
+
+}

@@ -1,0 +1,23 @@
+.welcome-box__sign-in-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 200px;
+    outline: none;
+    cursor: pointer;
+}
+
+.welcome-box__check-in-box-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 200px;
+    outline: none;
+    cursor: pointer;
+}

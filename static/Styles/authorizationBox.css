@@ -1,0 +1,60 @@
+.authorization-box__login-field_black-shadow
+{
+    font-size: 12px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    padding: 5px;
+    box-shadow: 0.2em 0.2em 2px rgba(0,0,0,0.8);
+    margin-left: 12px;
+}
+
+.authorization-box__password-field_black-shadow
+{
+    font-size: 12px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    padding: 5px;
+    box-shadow: 0.2em 0.2em 2px rgba(0,0,0,0.8);
+    margin-left: 12px;
+}
+
+.authorization-box__email-field_black-shadow
+{
+    font-size: 12px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    padding: 5px;
+    box-shadow: 0.2em 0.2em 2px rgba(0,0,0,0.8);
+    margin-left: 12px;
+}
+
+.authorization-box__sign-in-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 200px;
+    outline: none;
+    cursor: pointer;
+}
+
+.authorization-box__back-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 200px;
+    outline: none;
+    cursor: pointer;
+}
+

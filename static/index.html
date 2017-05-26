@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Крестики Нолики</title>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/welcomeBox.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/checkInBox.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/authorizationBox.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/messageBox.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/myProfileBox.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/gameWithComputerBox.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/resultsOfUserBox.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/bestUsersResultsBox.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/twoPlayersGameBox.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "Styles/bodyAndCenterBox.css"/>
+</head>
+<body>
+
+<div class = "main-box_center-position">
+    <img src = "Images/title.png" class = "main-box_center__image">
+    <hr>
+
+    <div class = "welcome-box">
+        <form>
+            <h2>Добро пожаловать</h2>
+            <br>
+            <input type = "button" value = "Авторизация" class = "welcome-box__sign-in-button_DeepSkyBlue-color">
+            <br>
+            <br>
+            <input type = "button" value = "Регистрация" class = "welcome-box__check-in-box-button_DeepSkyBlue-color">
+        </form>
+    </div>
+
+    <div class = "authorization-box" hidden>
+        <form>
+            <h2>Авторизация</h2>
+            <span>E-mail</span><br><br>
+            <input type = "text" maxlength = "20" size = "30" placeholder = "asd2017@mail.ru" class = "authorization-box__login-field_black-shadow" spellcheck = 'false' autocomplete = 'off'>
+            <br><br>
+            <span>Пароль</span><br><br>
+            <input type = "password" maxlength = "20" size = "30" placeholder = "asd45rtx77" class = "authorization-box__password-field_black-shadow" spellcheck = 'false' autocomplete = 'off'>
+            <br>
+            <br>
+            <br>
+            <input type = "button" value = "Войти в аккаунт" class = "authorization-box__sign-in-button_DeepSkyBlue-color">
+            <br>
+            <br>
+            <input type = "button" value = "Назад на WelcomePage" class = "authorization-box__back-button_DeepSkyBlue-color">
+        </form>
+    </div>
+
+    <div class = "check-in-box" hidden>
+        <form>
+            <h2>Регистрация</h2>
+			<span>E-mail:</span><br><br>
+            <input type = "text" maxlength = "20" size = "30" placeholder = "asd2017@mail.ru" class = "check-in-box__email-field_black-shadow" spellcheck = 'false' autocomplete = 'off'>
+            <br> <br>
+            <span>Логин</span><br><br>
+            <input type = "text" maxlength = "20" size = "30" placeholder = "maxim2017" class = "check-in-box__login-field_black-shadow" spellcheck = 'false' autocomplete = 'off'>
+            <br><br>
+            <span>Пароль</span><br><br>
+            <input type = "password" maxlength = "20" size = "30" placeholder = "asd45rtx77" class = "check-in-box__password-field_black-shadow" spellcheck = 'false' autocomplete = 'off'>
+            <br><br><br>
+            <input type = "button" value = "Зарегистрироваться" class = "check-in-box__registration-button_DeepSkyBlue-color">
+            <br>
+            <br>
+            <input type = "button" value = "Назад на WelcomePage" class = "check-in-box__back-button_DeepSkyBlue-color">
+        </form>
+    </div>
+
+    <div class = "my-profile-box" hidden>
+        <form>
+            <h2>Мой профиль</h2>
+            <h3 class = "my-profile-box__user-login_big-text"></h3><br>
+            <input type = "button" value = "Игра с компьютером" class = "my-profile-box__play-with-computer-button_DeepSkyBlue-color">
+            <br>
+            <br>
+            <input type = "button" value = "Online Game" class = "my-profile-box__play-with-user-button_DeepSkyBlue-color">
+            <br>
+            <br>
+            <input type = "button" value = "Мои результаты" class = "my-profile-box__my-results-button_DeepSkyBlue-color">
+            <br>
+            <br>
+            <input type = "button" value = "Топ игроков" class = "my-profile-box__best-players-button_DeepSkyBlue-color">
+            <br>
+            <br>
+            <input type = "button" value = "Выход из профиля" class = "my-profile-box__exit-button_DeepSkyBlue-color">
+        </form>
+    </div>
+
+    <div class = "game-with-computer-box" hidden>
+        <form>
+            <h2>Игра с компьютером</h2>
+            <h3 class = "game-with-computer-box__game-result_color-blue"></h3>
+            <br>
+            <canvas width = "480" height = "480" class = "game-with-computer-box__holst-for-paint_cursor-pointer"></canvas>
+            <br>
+        </form>
+    </div>
+
+    <div class = "results-of-user-box" hidden>
+        <form>
+            <h2>Мои результаты</h2>
+            <h2 class = "results-of-user-box__list-of-user-results_color-blue"></h2>
+            <br>
+            <input type = "button" value = "Главное меню" class = "results-of-user-box__go-to-main-menu-button_DeepSkyBlue-color">
+        </form>
+    </div>
+
+    <div class = "best-users-results-box" hidden>
+        <form>
+            <h2>Топ игроков</h2>
+            <p class = "best-users-results-box__results-list"></p>
+            <br>
+            <input type = "button" value = "Главное меню" class = "best-users-results-box__go-to-main-menu-button_DeepSkyBlue-color">
+        </form>
+    </div>
+
+    <div class = "two-players-game-box" hidden>
+        <form>
+            <h2>Многопользовательская игра</h2>
+            <h3 class = "two-players-game-box__message-text_color-blue"></h3>
+            <br>
+            <canvas width = "480" height = "480" class = "two-players-game-box__holst-for-paint_cursor-pointer"></canvas>
+            <br>
+        </form>
+    </div>
+
+    <div class = "message-box">
+        <br>
+        <br>
+        <p class = "message-box__text-of-message_blue"></p>
+    </div>
+</div>
+
+<script src = "http://cdn.socket.io/socket.io-1.3.7.js"></script>
+<script src = "ResultScript/result.js"></script>
+
+</body>
+</html>

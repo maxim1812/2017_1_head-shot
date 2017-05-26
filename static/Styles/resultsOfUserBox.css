@@ -1,0 +1,16 @@
+.results-of-user-box__list-of-user-results_color-blue
+{
+    color: blue;
+}
+
+.results-of-user-box__go-to-main-menu-button_DeepSkyBlue-color
+{
+    padding: 10px;
+    background-color: DeepSkyBlue;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border-color: DeepSkyBlue;
+    width: 200px;
+    outline: none;
+    cursor: pointer;
+}
